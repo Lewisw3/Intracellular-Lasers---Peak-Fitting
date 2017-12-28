@@ -1,2 +1,2 @@
 # Intracellular-Lasers---Peak-Fitting
-A few sample scripts used to analyse experimental data for my MPhys thesis at University of St Andrews. 
+A few sample scripts that I wrote to analyse experimental data for my master's thesis.
