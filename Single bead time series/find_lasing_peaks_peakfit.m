@@ -14,7 +14,7 @@ function L = find_lasing_peaks_peakfit(min_peak_prominence, lower_lambda, upper_
 
 %% User Setup 
 
-mainpath = '/Users/lewisdw11/Dropbox/Cardiomyocyte Project (Large Files)/Data/Lasing/21-Mar Primary CDM';
+mainpath = '/Users/?';
 file = 'FOV3_B2_20x_100Hz_1ms_OD16_6hr.asc';
 f = fullfile(mainpath, file);
 timeseries = dlmread(f);
@@ -141,11 +141,7 @@ for j=1:n_data %for each spectrum...
         % otherwise if it is a TM mode then do a different fit
         % use peakfit() for both modes
         % use the find function to get the first non zero entry of an array
-        
-        % ADD ERROR LATER. can get error in peak position from bootstrap output, but it
-        % takes a really long time (will take hours) - maybe just omit it for now, if one
-        % really needs the fit errors they may have to use the other
-        % algorithm or have a function that turns errors on and off       
+           
         
         try 
             if(ismember(locs(i),te)) 
