@@ -15,7 +15,7 @@ function [L,int,err]=find_lasing_peaks_lw58(min_peak_prominence, lower_lambda, u
 
 %% User Setup 
 
-mainpath = '/Users/lewisdw11/Dropbox/Cardiomyocyte Project (Large Files)/Data/Lasing/21-Mar Primary CDM';
+mainpath = '/Users/?';
 file = 'FOV3_B2_20x_100Hz_1ms_OD16_6hr.asc';
 f = fullfile(mainpath, file);
 
