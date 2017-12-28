@@ -22,7 +22,7 @@ f = fullfile(mainpath, file);
 % For spectral data over 10 minutes long you need to specify the range of
 % data to read from the delimited file. For data shorter than 
 % 10 minutes the command 'dlmread(f)' is sufficient.
-% Comment and uncomment as required.
+% Comment and uncomment as required
 
 % FOR LARGE TIMESERIES (>10mins)
 %startRow = 0; % start row number (first wavelength bin, FIXED)
